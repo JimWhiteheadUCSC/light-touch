@@ -2,9 +2,9 @@
 
 Three ways of doing very little: a few moving dots that become a person, a ruled line with one percent of disorder, and flat shapes that drift slowly into new chords.
 
-A multicart of 3 packs for [Grid Runner](https://github.com/JimWhiteheadUCSC/grid-runner), a generative art player for 64×64 LED panels.
+A multicart of 3 carts for [Grid Runner](https://github.com/JimWhiteheadUCSC/grid-runner), a generative art player for 64×64 LED panels.
 
-Each pack is its own bank.
+Each cart is its own bank.
 
 ## Install
 
@@ -18,7 +18,7 @@ pieces that move.
 
 ## Almost Nothing
 
-Jim Campbell’s question is how little information it takes to see a person. This pack stays right at that threshold: a few moving dots that become someone walking, a shadow on a wall, window light crossing a room. Most of the panel stays dark, and the meaning only arrives in motion, so give Passerby a moment. The core is Saccade, joined by Register’s and Selvedge’s pieces about light on walls and Ember’s Long Exposure, which share the restraint.
+Jim Campbell’s question is how little information it takes to see a person. This cart stays right at that threshold: a few moving dots that become someone walking, a shadow on a wall, window light crossing a room. Most of the panel stays dark, and the meaning only arrives in motion, so give Passerby a moment. The core is Saccade, joined by Register’s and Selvedge’s pieces about light on walls and Ember’s Long Exposure, which share the restraint.
 
 ![Almost Nothing](almost-nothing/preview.png)
 
@@ -40,7 +40,7 @@ Jim Campbell’s question is how little information it takes to see a person. Th
 
 ## One Percent
 
-Vera Molnár’s “one percent of disorder” and Casey Reas’s drawing by rule. Ruled strokes, plotter lines and marks that follow a process, where a slight deviation is the whole event. It’s the quietest graphic pack, and the one that looks most like drawing. It’s mostly Saccade, plus Register’s pieces built from one repeated motif.
+Vera Molnár’s “one percent of disorder” and Casey Reas’s drawing by rule. Ruled strokes, plotter lines and marks that follow a process, where a slight deviation is the whole event. It’s the quietest graphic cart, and the one that looks most like drawing. It’s mostly Saccade, plus Register’s pieces built from one repeated motif.
 
 ![One Percent](one-percent/preview.png)
 
@@ -59,7 +59,7 @@ Vera Molnár’s “one percent of disorder” and Casey Reas’s drawing by rul
 
 ## Held Chords
 
-Concrete painting with a jazz record shop’s color sense, after Loewensberg’s slow-moving flat shapes. Rectangles and circles drift, and their overlaps change color like chords changing. Gemini, Ember, Selvedge and Register all arrived here. It’s the most livable pack, and a good one to leave on all day.
+Concrete painting with a jazz record shop’s color sense, after Loewensberg’s slow-moving flat shapes. Rectangles and circles drift, and their overlaps change color like chords changing. Gemini, Ember, Selvedge and Register all arrived here. It’s the most livable cart, and a good one to leave on all day.
 
 ![Held Chords](held-chords/preview.png)
 
