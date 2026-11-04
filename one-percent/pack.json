@@ -1,0 +1,20 @@
+{
+  "name": "One Percent",
+  "color": [
+    200,
+    200,
+    216
+  ],
+  "pieces": [
+    "saccades-after-molnar.js",
+    "isobars.js",
+    "the-plotter-comes-back.js",
+    "the-grain-remembers.js",
+    "a-curve-nobody-drew.js",
+    "lodging.js",
+    "while-touching.js",
+    "desire-paths.js",
+    "what-a-knock-leaves-in-the-grain.js",
+    "every-mark-here-is-the-same-motif.js"
+  ]
+}
