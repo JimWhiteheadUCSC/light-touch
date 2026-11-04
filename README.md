@@ -10,7 +10,7 @@ Each pack is its own bank.
 
 ```bash
 cd grid-runner/packs
-git clone https://github.com/JimWhiteheadUCSC/grid-runner-cart-light-touch.git
+git clone https://github.com/JimWhiteheadUCSC/light-touch.git
 ```
 
 The keys are laid out as 1234 / QWER / ASDF / ZXCV. Images below are stills from
@@ -24,18 +24,18 @@ Jim Campbell’s question is how little information it takes to see a person. Th
 
 | Key | Piece | Artist | Run | Reacts to |
 |---|---|---|---|---|
-| 1 | Passerby | Saccade | Saccade |  |
+| 1 | Passerby | Saccade | Saccade | clock |
 | 2 | Lengths | Saccade | Saccade |  |
 | 3 | The Long Fall | Saccade | Saccade |  |
-| 4 | Keeping Pace | Saccade | Saccade |  |
-| Q | Murmuration | Saccade | Saccade |  |
-| W | Between the Lamp and the Wall | Saccade | Saccade |  |
-| E | Two Hands, Pretending | Saccade | Saccade |  |
-| R | Each One the Sun | Saccade | Saccade |  |
-| A | Someone Else Going Home | Saccade | Saccade |  |
-| S | Before It Mists Over | Saccade | Saccade | weather |
-| D | Light on the Other Side of the Wall | Register | Register | weather |
-| F | Every Shadow Is Lit by the Other Lamp | Selvedge | Selvedge | weather |
+| 4 | Keeping Pace | Saccade | Saccade | clock |
+| Q | Murmuration | Saccade | Saccade | clock |
+| W | Between the Lamp and the Wall | Saccade | Saccade | clock |
+| E | Two Hands, Pretending | Saccade | Saccade | clock |
+| R | Each One the Sun | Saccade | Saccade | clock |
+| A | Someone Else Going Home | Saccade | Saccade | clock |
+| S | Before It Mists Over | Saccade | Saccade | clock, weather |
+| D | Light on the Other Side of the Wall | Register | Register | clock, weather |
+| F | Every Shadow Is Lit by the Other Lamp | Selvedge | Selvedge | clock, weather |
 | Z | Long Exposure | Latch | Ember cold no-artists | sound |
 
 ## One Percent
@@ -46,16 +46,16 @@ Vera Molnár’s “one percent of disorder” and Casey Reas’s drawing by rul
 
 | Key | Piece | Artist | Run | Reacts to |
 |---|---|---|---|---|
-| 1 | Saccades, After Molnar | Saccade | Saccade |  |
+| 1 | Saccades, After Molnar | Saccade | Saccade | clock |
 | 2 | Isobars | Saccade | Saccade | weather |
-| 3 | The Plotter Comes Back | Saccade | Saccade |  |
-| 4 | The Grain Remembers | Saccade | Saccade |  |
-| Q | A Curve Nobody Drew | Saccade | Saccade |  |
-| W | Lodging | Saccade | Saccade | weather |
+| 3 | The Plotter Comes Back | Saccade | Saccade | clock |
+| 4 | The Grain Remembers | Saccade | Saccade | clock |
+| Q | A Curve Nobody Drew | Saccade | Saccade | clock |
+| W | Lodging | Saccade | Saccade | clock, weather |
 | E | While Touching | Saccade | Saccade |  |
 | R | Desire Paths | Saccade | Saccade |  |
-| A | What a Knock Leaves in the Grain | Register | Register | button, sound |
-| S | Every Mark Here Is the Same Motif | Register | Register | button, weather, sound |
+| A | What a Knock Leaves in the Grain | Register | Register | sound, button |
+| S | Every Mark Here Is the Same Motif | Register | Register | clock, weather, sound, button |
 
 ## Held Chords
 
@@ -65,28 +65,48 @@ Concrete painting with a jazz record shop’s color sense, after Loewensberg’s
 
 | Key | Piece | Artist | Run | Reacts to |
 |---|---|---|---|---|
-| 1 | Untitled (Stimmung in Four Chords) | Chusen | Gemini full | sound |
-| 2 | Vier Variationen um ein Quadrat | Chusen | Gemini full | sound |
-| 3 | City-Discount (Septet in Eight Chords) | Chusen | Gemini full | sound |
-| 4 | Stimmung Suite | Koushi | Gemini no-argument | sound |
-| Q | Counterpoint Quartet | Koushi | Gemini no-argument | button, sound |
-| W | Untitled (Stimmung) | Solyanka | Gemini no-craft | button, sound |
-| E | Untitled (City Discount) | Solyanka | Gemini no-craft | button, sound |
-| R | Untitled (25 Quadrate) | Solyanka | Gemini no-craft | button, sound |
-| A | Adagio for Three Neighbors | Solyanka | Ember full |  |
-| S | City-Discount, After Hours | Solyanka | Ember full | sound |
-| D | Passing Tones | Zuanya | Ember no-argument |  |
-| F | Untitled | Weft | Ember no-craft |  |
-| Z | Untitled, Two Passes | Selvedge | Selvedge |  |
-| X | Nothing Here Was Placed | Selvedge | Selvedge |  |
-| C | The Chord Is Where They Cross | Selvedge | Selvedge |  |
-| V | The Agreement Has Edges | Register | Register |  |
+| 1 | Untitled (Stimmung in Four Chords) | Chusen | Gemini full | clock, sound |
+| 2 | Vier Variationen um ein Quadrat | Chusen | Gemini full | clock, sound |
+| 3 | City-Discount (Septet in Eight Chords) | Chusen | Gemini full | clock, sound |
+| 4 | Stimmung Suite | Koushi | Gemini no-argument | clock, sound |
+| Q | Counterpoint Quartet | Koushi | Gemini no-argument | clock, sound, button |
+| W | Untitled (Stimmung) | Solyanka | Gemini no-craft | clock, sound, button |
+| E | Untitled (City Discount) | Solyanka | Gemini no-craft | clock, sound, button |
+| R | Untitled (25 Quadrate) | Solyanka | Gemini no-craft | clock, sound, button |
+| A | Adagio for Three Neighbors | Solyanka | Ember full | clock |
+| S | City-Discount, After Hours | Solyanka | Ember full | clock, sound |
+| D | Passing Tones | Zuanya | Ember no-argument | clock |
+| F | Untitled | Weft | Ember no-craft | clock |
+| Z | Untitled, Two Passes | Selvedge | Selvedge | clock |
+| X | Nothing Here Was Placed | Selvedge | Selvedge | clock |
+| C | The Chord Is Where They Cross | Selvedge | Selvedge | clock |
+| V | The Agreement Has Edges | Register | Register | clock |
 
+
+## What the pieces react to
+
+The "Reacts to" column in each table shows which of these a piece uses. Every
+piece still works without them.
+
+- **Clock:** the time, the date, and how light it is outside, worked out from
+  local sunrise and sunset. A piece can look different at night or change with
+  the seasons.
+- **Weather:** the current temperature, cloud cover and rain from
+  [Open-Meteo](https://open-meteo.com). Grid Runner defaults to Santa Cruz,
+  California, and `--lat` and `--lon` set your own location.
+- **Sound:** loudness, bass, mid, treble and beats. Use `--audio arecord
+  --audio-device plughw:1,0` for a USB microphone. Without one, pieces hear a
+  built-in test signal.
+- **Button:** press Enter, or the middle knob on a macro pad, and the piece
+  responds. Some also react to holding it.
 
 ## About these pieces
 
-The pieces were made by autonomous AI artist agents and selected and arranged by
-Jim Whitehead. Each artist below is the name an agent chose for itself. Saccade,
+These pieces were created using Sides Taken, an autonomous AI artist framework.
+Jim Whitehead selected the inspiring artists and hand-crafted the framework, but
+the artworks were created autonomously by the AI artists.
+
+Each artist in the tables above is the name an agent chose for itself. Saccade,
 Register and Selvedge are single runs. Gemini (Gemini 3.8 Flash) and Ember
 (Ember-1) are the two models in a study that gave agents different materials:
 `full` had artist dossiers, craft files and an argument step, `no-…` removed one,
